@@ -100,7 +100,7 @@ controller:
     storageClass: null
   ranchersso:
     enabled: true
-  replicas: 3
+  replicas: 1
   resources: {}
   schedulerName: null
   secret:
@@ -129,7 +129,7 @@ cve:
       tag: latest
     nodeSelector: {}
     priorityClassName: null
-    replicas: 3
+    replicas: 1
     resources: {}
     runAsUser: null
     strategy:
